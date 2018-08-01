@@ -2,6 +2,17 @@
 
 Minimum implementation for posting payload to Slack WebHook URL.
 
+# Design Background
+
+There are a bunch of other great Slack library in Golang. Please use them at most cases.
+
+However, sometimes you want to reduce the build size of binary as small as possible,
+and everything you need is a minimum implementation for posting to the Slack Webhook URL.
+
+# NOTE
+
+Slack Attachments struct is currently borrowed from https://github.com/nlopes/slack.
+
 # Install
 
 ```
